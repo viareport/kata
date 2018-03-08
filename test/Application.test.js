@@ -1,4 +1,4 @@
-let {add} = require("./Application");
+let {add} = require("../src/Add");
 
 describe("Add number", () => {
    it("add should return sum", () => {

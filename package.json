@@ -2,10 +2,10 @@
   "name": "kata",
   "version": "1.0.0",
   "description": "",
-  "main": "Application.js",
+  "main": "src/Application.js",
   "scripts": {
     "test": "jest",
-    "start": "node Application.js"
+    "start": "node src/Application.js"
   },
   "repository": {
     "type": "git",

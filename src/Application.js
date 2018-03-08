@@ -1,8 +1,8 @@
 "use strict";
 
-let args = process.argv.slice(2);
+let {add} =  require("./Add");
 
-const add = (n1, n2) => n1 + n2;
+let args = process.argv.slice(2);
 
 function main(args) {
     let n1 = Number(args[0]);
@@ -11,5 +11,3 @@ function main(args) {
 }
 
 main(args);
-
-module.exports = {add};
